@@ -42,8 +42,8 @@ Running code analysis
 
 ```
 $ yarn prettier:fix    # auto-formatter
-$ yarn lint:fix 			 # linter
-$ yarn typecheck 			 # runs typecheck
+$ yarn lint:fix        # linter
+$ yarn typecheck       # runs typecheck
 $ yarn prettylint:fix  # runs them all
 ```
 
