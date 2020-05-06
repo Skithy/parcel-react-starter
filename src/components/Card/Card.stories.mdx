@@ -1,0 +1,25 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+import { text } from '@storybook/addon-knobs'
+import { Card } from './Card'
+
+<Meta title="Card/MDX" component={Card} />
+
+# Card
+
+With `MDX` we can define a story for `Checkbox` right in the middle of our
+markdown documentation.
+
+<Preview>
+  <Story name="Basic card">
+    <Card title="Hello" subtitle="World" />
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Editable">
+    <Card
+      title={text('title', 'Title')}
+      subtitle={text('subtitle', 'Subtitle')}
+    />
+  </Story>
+</Preview>

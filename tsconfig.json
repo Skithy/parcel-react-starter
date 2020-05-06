@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "react",
+    // https://parceljs.org/typeScript.html#baseurl-and-paths
+    // Parcel does not use the baseUrl or paths directives in tsconfig.json.
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"]
+    }
+  },
+  "include": ["src", "tests"]
+}
