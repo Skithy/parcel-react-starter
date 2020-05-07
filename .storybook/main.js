@@ -39,7 +39,7 @@ module.exports = {
     })
 
     config.module.rules.push({
-      test: /\.stories.tsx?$/,
+      test: /\.stories\.tsx?$/,
       loader: require.resolve('@storybook/source-loader'),
       exclude: /node_modules/,
       enforce: 'pre',
