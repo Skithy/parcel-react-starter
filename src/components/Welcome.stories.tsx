@@ -8,7 +8,3 @@ export default {
 }
 
 export const ToStorybook = () => <Welcome showApp={linkTo('Card/MDX')} />
-
-ToStorybook.story = {
-  name: 'to Storybook',
-}

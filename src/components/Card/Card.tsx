@@ -11,6 +11,9 @@ interface CardProps {
   subtitle?: string
 }
 
+/**
+ * Hello! this is Card
+ */
 export const Card: FunctionComponent<CardProps> = ({ title, subtitle }) => (
   <StyledCard>
     <Heading>{title}</Heading>
